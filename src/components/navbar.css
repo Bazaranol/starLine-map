@@ -1,0 +1,48 @@
+.heading {
+	margin: 0;
+	padding: 0px;
+	background-color: black;
+	color: white;
+}
+
+.heading > h1 {
+	padding: 20px;
+	margin: 0;
+}
+ul > li {
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	list-style-type: none;
+}
+ul {
+	margin: 0;
+}
+.heading-block {
+	display: flex;
+	flex-direction: row;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.heading-block > div {
+	margin-right: 10px;
+	cursor: pointer;
+}
+.navbarPlaces {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightgrey;
+	color: white;
+	height: 100%;
+	width: 200px;
+}
+
+.nav-item {
+  border-top: 1px solid rgb(194, 193, 193);
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+.item-name {
+  color: rgb(134, 134, 200)
+}
